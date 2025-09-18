@@ -1,7 +1,15 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
+ruby "3.3.5"
 # gem "rails"
 
-gem 'rspec'
-    gem 'pry'
+gem "fiddle"
+gem "logger"
+gem "ostruct"
+gem "pry"
+gem "rspec"
+
+gem "rubocop-rspec", "~> 3.7"
+
+gem "rubocop", "~> 1.80"
